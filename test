@@ -1,5 +1,5 @@
 #!/bin/bash
-#comment line for the file in branch
+#comment line 
 ls -l>line
 ls -a -l>detail
 echo $line
