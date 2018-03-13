@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+echo this is 1st argument $1
+echo this is 2nd argument $2
+echo this is 3rd argument $3
+echo $*
+echo $#
+echo pid no $$
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+#comment line 
+ls -l>line
+ls -a -l>detail
+
+
