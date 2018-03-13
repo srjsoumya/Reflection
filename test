@@ -3,4 +3,7 @@
 ls -l>line
 ls -a -l>detail
 
-
+value1="happy"
+value2="new"
+value3="year"
+echo $value1 $value2 $value3
