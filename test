@@ -2,5 +2,6 @@
 #comment line for the file in branch
 ls -l>line
 ls -a -l>detail
-
+echo $line
+echo $detail
 
