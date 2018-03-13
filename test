@@ -1,5 +1,5 @@
 #!/bin/bash
-#comment line 
+#comment line for the file 
 ls -l>line
 ls -a -l>detail
 
