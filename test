@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #comment line for the file for the tsetingbranch 
 ls -l>line
 ls -a -l>detail
@@ -7,3 +8,18 @@ value1="happy"
 value2="new"
 value3="year"
 echo $value1 $value2 $value3
+
+ 
+ls -l>line
+ls -a -l>detail
+
+
+var1="hello"
+var2="world"
+echo $var1 $var2
+
+echo $line
+echo $detail
+
+
+>>>>>>> master
