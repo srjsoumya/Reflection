@@ -1,5 +1,5 @@
 #!/bin/bash
-#comment line for the file in master
+#comment line 
 ls -l>line
 ls -a -l>detail
 
