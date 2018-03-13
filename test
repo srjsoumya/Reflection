@@ -1,5 +1,5 @@
 #!/bin/bash
-#comment line for the file for the branch 
+#comment line for the file for the tsetingbranch 
 ls -l>line
 ls -a -l>detail
 
