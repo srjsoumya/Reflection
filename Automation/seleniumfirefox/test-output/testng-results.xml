@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76" started-at="2018-01-22T15:47:18Z" finished-at="2018-01-22T15:47:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76" started-at="2018-01-22T15:47:18Z" finished-at="2018-01-22T15:47:18Z">
+      <class name="demotestng.DemoTest">
+        <test-method status="PASS" signature="createCustomerTest()[pri:-2, instance:demotestng.DemoTest@29ee9faa]" name="createCustomerTest" duration-ms="16" started-at="2018-01-22T21:17:18Z" finished-at="2018-01-22T21:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="createProjectTest()[pri:-1, instance:demotestng.DemoTest@29ee9faa]" name="createProjectTest" duration-ms="5" started-at="2018-01-22T21:17:18Z" finished-at="2018-01-22T21:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectTest -->
+        <test-method status="PASS" signature="deleteProjectTest()[pri:-6, instance:demotestng.DemoTest@29ee9faa]" name="deleteProjectTest" duration-ms="2" started-at="2018-01-22T21:17:18Z" depends-on-methods="demotestng.DemoTest.createProjectTest" finished-at="2018-01-22T21:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProjectTest -->
+        <test-method status="PASS" signature="editProjectTest()[pri:-5, instance:demotestng.DemoTest@29ee9faa]" name="editProjectTest" duration-ms="2" started-at="2018-01-22T21:17:18Z" depends-on-methods="demotestng.DemoTest.createProjectTest" finished-at="2018-01-22T21:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProjectTest -->
+        <test-method status="PASS" signature="deleteCustomerTest()[pri:-4, instance:demotestng.DemoTest@29ee9faa]" name="deleteCustomerTest" duration-ms="2" started-at="2018-01-22T21:17:18Z" depends-on-methods="demotestng.DemoTest.createCustomerTest" finished-at="2018-01-22T21:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerTest -->
+        <test-method status="PASS" signature="editCustomerTest()[pri:-3, instance:demotestng.DemoTest@29ee9faa]" name="editCustomerTest" duration-ms="4" started-at="2018-01-22T21:17:18Z" depends-on-methods="demotestng.DemoTest.createCustomerTest" finished-at="2018-01-22T21:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomerTest -->
+      </class> <!-- demotestng.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

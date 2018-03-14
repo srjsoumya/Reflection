@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Open The Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login To The Application]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Lead Tab]]>
+    </line>
+    <line>
+      <![CDATA[Create a lead using necessary field]]>
+    </line>
+    <line>
+      <![CDATA[save the lead page]]>
+    </line>
+    <line>
+      <![CDATA[Logout From The Application]]>
+    </line>
+    <line>
+      <![CDATA[Close The Browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42245" started-at="2018-02-20T11:39:25Z" finished-at="2018-02-20T11:40:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42245" started-at="2018-02-20T11:39:25Z" finished-at="2018-02-20T11:40:07Z">
+      <class name="com.zoho.testscript.CreateLead">
+        <test-method status="PASS" signature="configBeforeClass(java.lang.String)[pri:0, instance:com.zoho.testscript.CreateLead@26653222]" name="configBeforeClass" is-config="true" duration-ms="15932" started-at="2018-02-20T17:09:25Z" finished-at="2018-02-20T17:09:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open The Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method status="PASS" signature="configBm()[pri:0, instance:com.zoho.testscript.CreateLead@26653222]" name="configBm" is-config="true" duration-ms="9945" started-at="2018-02-20T17:09:41Z" finished-at="2018-02-20T17:09:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login To The Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method status="PASS" signature="createlead()[pri:0, instance:com.zoho.testscript.CreateLead@26653222]" name="createlead" duration-ms="15691" started-at="2018-02-20T17:09:51Z" finished-at="2018-02-20T17:10:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Lead Tab]]>
+            </line>
+            <line>
+              <![CDATA[Create a lead using necessary field]]>
+            </line>
+            <line>
+              <![CDATA[save the lead page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createlead -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.zoho.testscript.CreateLead@26653222]" name="configAM" is-config="true" duration-ms="188" started-at="2018-02-20T17:10:07Z" finished-at="2018-02-20T17:10:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout From The Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAc()[pri:0, instance:com.zoho.testscript.CreateLead@26653222]" name="configAc" is-config="true" duration-ms="468" started-at="2018-02-20T17:10:07Z" finished-at="2018-02-20T17:10:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Close The Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAc -->
+      </class> <!-- com.zoho.testscript.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
