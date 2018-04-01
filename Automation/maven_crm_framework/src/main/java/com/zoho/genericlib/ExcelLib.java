@@ -16,13 +16,14 @@ public class ExcelLib {
 	String path = "src/test/resources/TestData.xlsx";
 	
 	/**
+	 * It is developed using Apache poi To retrieve Data from Excel sheet
 	 * @param sName ,rowNum, colNum
      * @return String data based on the argument
      * its developed using Apache POi , used read the data from .xls
 	 * @throws IOException 
 	 * @throws InvalidFormatException 
 	 * @throws EncryptedDocumentException 
-	 * It is developed using Apache poi To retrieve Data from Excel sheet 
+	 *  
 	 */
 	public String getExcelData(String sName, int rowNum, 
 			                     int colNum) throws EncryptedDocumentException, InvalidFormatException, IOException {
@@ -35,7 +36,7 @@ public class ExcelLib {
 		return data;
 	}
 	/**
-	 * 
+	 * It is developed using Apache poi To Write Data to Excel sheet
 	 * @param sName Sheet Name
 	 * @param rowNum Row Number
 	 * @param colNum Column Number
@@ -43,7 +44,7 @@ public class ExcelLib {
 	 * @throws IOException 
 	 * @throws InvalidFormatException 
 	 * @throws EncryptedDocumentException
-	 * It is developed using Apache poi To Write Data to Excel sheet 
+	 *  
 	 */
 	public void setExcelData(String sName, int rowNum, 
 			          int colNum,String data) throws EncryptedDocumentException, InvalidFormatException, IOException {

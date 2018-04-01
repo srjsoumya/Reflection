@@ -1,37 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76" started-at="2018-01-22T15:47:18Z" finished-at="2018-01-22T15:47:18Z">
+  <suite name="Default suite" duration-ms="509" started-at="2018-03-30T08:41:09Z" finished-at="2018-03-30T08:41:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76" started-at="2018-01-22T15:47:18Z" finished-at="2018-01-22T15:47:18Z">
-      <class name="demotestng.DemoTest">
-        <test-method status="PASS" signature="createCustomerTest()[pri:-2, instance:demotestng.DemoTest@29ee9faa]" name="createCustomerTest" duration-ms="16" started-at="2018-01-22T21:17:18Z" finished-at="2018-01-22T21:17:18Z">
+    <test name="Default test" duration-ms="509" started-at="2018-03-30T08:41:09Z" finished-at="2018-03-30T08:41:09Z">
+      <class name="actitime.Dataprovider_example">
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="13" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCustomerTest -->
-        <test-method status="PASS" signature="createProjectTest()[pri:-1, instance:demotestng.DemoTest@29ee9faa]" name="createProjectTest" duration-ms="5" started-at="2018-01-22T21:17:18Z" finished-at="2018-01-22T21:17:18Z">
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="2" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createProjectTest -->
-        <test-method status="PASS" signature="deleteProjectTest()[pri:-6, instance:demotestng.DemoTest@29ee9faa]" name="deleteProjectTest" duration-ms="2" started-at="2018-01-22T21:17:18Z" depends-on-methods="demotestng.DemoTest.createProjectTest" finished-at="2018-01-22T21:17:18Z">
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="2" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[012]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteProjectTest -->
-        <test-method status="PASS" signature="editProjectTest()[pri:-5, instance:demotestng.DemoTest@29ee9faa]" name="editProjectTest" duration-ms="2" started-at="2018-01-22T21:17:18Z" depends-on-methods="demotestng.DemoTest.createProjectTest" finished-at="2018-01-22T21:17:18Z">
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="2" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editProjectTest -->
-        <test-method status="PASS" signature="deleteCustomerTest()[pri:-4, instance:demotestng.DemoTest@29ee9faa]" name="deleteCustomerTest" duration-ms="2" started-at="2018-01-22T21:17:18Z" depends-on-methods="demotestng.DemoTest.createCustomerTest" finished-at="2018-01-22T21:17:18Z">
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="2" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteCustomerTest -->
-        <test-method status="PASS" signature="editCustomerTest()[pri:-3, instance:demotestng.DemoTest@29ee9faa]" name="editCustomerTest" duration-ms="4" started-at="2018-01-22T21:17:18Z" depends-on-methods="demotestng.DemoTest.createCustomerTest" finished-at="2018-01-22T21:17:18Z">
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="2" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[012345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editCustomerTest -->
-      </class> <!-- demotestng.DemoTest -->
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="1" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="1" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="3" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[012345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="display(java.lang.String)[pri:0, instance:actitime.Dataprovider_example@61832929]" name="display" duration-ms="2" started-at="2018-03-30T08:41:09Z" data-provider="exceldata" finished-at="2018-03-30T08:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+      </class> <!-- actitime.Dataprovider_example -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -5,23 +5,26 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class DownloadFile {
 	public static void main(String[] args) {
-		FirefoxProfile profile = new FirefoxProfile();
-		profile.setPreference("browser.download.folderList", 2);
-		profile.setPreference("browser.helperApp.neverAsk.saveToDisk", "application/exe");
-		profile.setPreference("browser.download.dir", "e://");
-		profile.setAcceptUntrustedCertificates(true);
-		profile.setAssumeUntrustedCertificateIssuer(false);
+		System.setProperty("webdriver.gecko.driver","/home/soumyavaio/selenium/geckodriver");
+		FirefoxOptions option =new FirefoxOptions();
+		FirefoxProfile profile=new FirefoxProfile();
+		profile.setPreference("browser.download.folderList", 1);
+		profile.setPreference("browser.helperApp.neverAsk.saveToDisk", "application/x-gzip");
+		option.addPreference("browser.download.folderList", 1);
+		option.addPreference("browser.helperApp.neverAsk.saveToDisk", "application/x-gzip");
+		
 
-		WebDriver driver = new FirefoxDriver(profile);
+		WebDriver driver = new FirefoxDriver(option);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
-		driver.get("https://www.mozilla.org/en-US/firefox/new/");
-		driver.findElement(By.xpath("//div[@class='main-download']//li[@class='os_win']//strong")).click();
+		driver.get("https://www.apache.org/dyn/closer.lua/poi/release/bin/poi-bin-3.17-20170915.tar.gz");
+		driver.findElement(By.linkText("http://www-eu.apache.org/dist/poi/release/bin/poi-bin-3.17-20170915.tar.gz")).click();
 		
 
 	}
